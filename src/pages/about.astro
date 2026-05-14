@@ -1,14 +1,24 @@
 ---
 import Base from '@/layouts/Base.astro'
+
+const base = import.meta.env.BASE_URL
 ---
 
 <Base meta={{ title: 'About' }}>
   <h2 class="text-2xl font-heading tracking-wide w500:text-lg">About</h2>
 
+  <img
+    src={`${base}images/IMG_4857.jpeg`}
+    alt="Maeve"
+    class="not-prose mt-4 max-w-md rounded-base border-2 border-border shadow-shadow"
+    width="800"
+    height="600"
+    loading="lazy"
+  />
+
   <div class="mt-4 tracking-wide w500:text-sm w500:leading-[2.2]">
     <p>
-      This is a compilation of Maeve's thoughts from the summer of 2026. 
-      >.
+      This is a compilation of Maeve's thoughts from the summer of 2026.
     </p>
   </div>
 </Base>
