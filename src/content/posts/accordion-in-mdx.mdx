@@ -1,0 +1,18 @@
+---
+title: 'Dropdown / accordion in a post'
+description: 'How to embed an interactive Radix accordion inside MDX.'
+pubDate: 'Feb 1 2026'
+tags: ['mdx', 'react', 'howto']
+---
+
+import AccordionFaq from '@/components/AccordionFaq.tsx'
+
+This post is **MDX** (not plain `.md`) so you can use React components. Plain Markdown files cannot import React like this.
+
+**Why a wrapper component?** Radix’s `Accordion` uses React context. In MDX, putting `client:load` only on the outer `Accordion` can break context for child items during the build. One small component that contains the **whole** accordion keeps the tree together; Astro hydrates that island as one unit.
+
+<div class="not-prose my-6 max-w-xl">
+  <AccordionFaq client:load />
+</div>
+
+You can duplicate `AccordionFaq.tsx`, rename it, and change the items and copy. For many posts, keep shared accordions in `src/components/` and import them by name.
