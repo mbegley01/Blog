@@ -1,5 +1,5 @@
 ---
-title: 'Proof Why 67 is the Funniest Number'
+title: 'Proof Why 67 is the Funniest Number ¯\(ツ)/¯'
 description: 'A mathematical proof on the inherent humor of 67'
 pubDate: 'May 13 2026'
 tags: ['math', '67']
