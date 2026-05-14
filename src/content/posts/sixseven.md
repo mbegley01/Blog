@@ -8,7 +8,7 @@ tags: ['math', '67']
 Theorem: The number 67 is the funniest natural number in existence
 
 Proof by contradiction: Suppose there exists a number X that is funnier than 67. 
-Let $F(k)$ be a function $\mathbb{N} \to \mathbb{R}$ given by:
+Let $F(k)$ be a function $f:\mathbb{N} \to \mathbb{R}$ given by:
 $$
 F(k) = 
 \begin{cases} 
