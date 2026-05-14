@@ -1,3 +1,6 @@
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
 import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
 import expressiveCode from 'astro-expressive-code'
@@ -5,6 +8,8 @@ import mdx from '@astrojs/mdx'
 import tailwindcss from '@tailwindcss/vite'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://astro.build/config
 export default defineConfig({
@@ -37,6 +42,12 @@ export default defineConfig({
   base: '/Blog/',
   trailingSlash: 'always',
   vite: {
+    // MDX (and Rollup on CI) does not always honor tsconfig `paths`; mirror `@/*` here.
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, 'src'),
+      },
+    },
     plugins: [tailwindcss()],
   },
 })
