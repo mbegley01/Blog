@@ -10,19 +10,21 @@ Recently, I have been pondering the following scenario: if an object is the only
 Physical Quantities:
 
 Weight and dimensions (length, widdth, height, etc) would fall under this category. This is the easiest category to start with because most people have strong intuitions about them from living in the world, and upon some reflection there appears to be an obvious answer to the guiding question above when looking at it through the lens of the physical world. To start, we will intorduce two theories about quantities of measurement:
+
 1. Representationalist:  the number stems from an intrinsic property of the object; if no other objects exist except this one, the object would still be just as heavy (we would just struggle to create a scale to determine the weight)
 2. Comparativist:  the quantity only exists in relation to other objects, so the relation is fundamental
+
 The representationalist would still agree that comparison is important practically for determining measurements, but the property that the measurement describes exists without the comparison. An example to help understand the difference in the two views is that if the size of everything doubled, the representationalist would argue that the size has changed, but the comparativist would say it has not. 
 When analyzing the question from this angle, my initial intuition leaned towards the representationalist side, and as I thought about it more I am now able to explain more in depth why. I think that the strongest reason is that there has to be some underlying cause of the size. If you start with one object in existence, it would not have a notion of size. If you add another to the universe, how would that suddenly create size for the original object? Rather, I think that this scenario shows that comparison gives us the ability to talk about quantities, but the property of the object that the quantity describes was always in existence. 
 
 Probability:
 
 This refers to a measurement of how likely an unknown event is to be true. We often talk about the probability of future events, such as the chance it will rain tomorrow. We can also talk about probailities from the past or present that are unknown, such as the probability that a suspect comitted the crime.
+
 Unlike physical measurements, probabilistic measurements apply to outcomes and events, not physical objects. So we must modify the original question slightly from asking whether measures describe inherent properties of objects to whether they describe inherent propensities, or tendencies of a physical setup towards certian behaviors. For example, we would be considering whether a property of a dice is that it has an underlying uniform distribution to land on any of the numbers.  
 We will use the axiomatic definition of probability formulated by Andrey Kolomogorov because it is the most rigorous foundation. Unlike frequentist methods that define probabilities as long run relative frequency over repeated trials, the axiomatic definition is universally consistent:
-$$
-    \text{Probability is a set-theoretic function } P(A) \text{ that assigns a real number to an event }A\text{ within a sample space }S. 
-$$
+
+Probability is a set-theoretic function P(A) that assigns a real number to an event A within a sample space S. 
 
 Axioms: 
 
@@ -33,9 +35,13 @@ $$
 $$
     2. P(S)=1, \text{ and if events A and B are mutually exclusive, } P[A] + P[B] = P[A \cup B]
 $$
+
 At naive first thought, probabilities felt like a different beast from quantities like size. If there is only one possible outcome in the sample space, then that outcome has to occur. When you add another possible outcome, the probability of the first outcome decreases, so surely the quantity of probability exists only in relation to other outcomes?
+
 Upon further thought, this is not necessarily that the probability measure only existing in comparison, rather that the value of the probability measure is connected to what other events are in the sample space.
+
 Here is the problem that makes probability different from size: probabilities of events are correlated with each other, whereas sizes of objects are independent. Except for the trivial case where an object takes up all space (meaning that every other object would have size 0), an object’s size does not impact the size of any other object. On the other hand, since we are assuming there is only one answer to the unknown event we are measuring the probability of, then one outcome being more probable means that another needs to be less probable. Essentially, probability is a zero sum game whereas size is not. How does this impact our analysis on whether a probabilistic quantity exists?
+
 Let's poke holes in my initial instinct that probabilities only exist in comparison. Without other outcomes in the sample space to compare to, it is deterministic. But that would just mean its probability is 1, so it appears to have an inherent probability. When we add another possible event it might change the probability of the first event. However, this is not necessarily a problem for the representationalist view because the probability of the event still describes a property of the event in both cases. Consider rolling a fair dice.  Probabilities of individual events only exist in relation to each other. However, the underlying propensity structure of the system must be an intrinsic property.
 
 Distance and Location:
