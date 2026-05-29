@@ -14,20 +14,21 @@ Ontology is a branch of metaphysics that considers what things can be said to ex
 
 A classic ontological debate that started from Plato is whether properties exist independently of the objects that possess them. Plato considered these 'properties' to be mapped to categories, which are abstractions of what an object _is_. To discuss this, I will introduce some vocabulary to distinguish between abstract categories and concrete individual things.
 
-|          | Universals | Particulars|
 
-|Definition| A shared essence of what a thing is; its 'whatness' or _quiddity_ | The concrete, individual thing; a specific  instance of a universal; its 'thisness' or _haecceity_ |
+| | Universals | Particulars |
+| :--- | :--- | :--- |
+| **Definition** | A shared essence of what a thing is; its 'whatness' or _quiddity_ | The concrete, individual thing; a specific instance of a universal; its 'thisness' or _haecceity_ |
+| **Examples** | Human, Concept of a Chair | Abe Lincoln, Specific Chair |
 
-|Examples| Human, Concept of a Chair | Abe Lincoln, Specific Chair |
 
 
 **Platonic Dualism**
 
 Plato argues that existence is divided into two realities:
 
-    **Material World**: physical world we experience with particular things and actions 
+    -Material World: physical world we experience with particular things and actions 
     (Abe Lincoln, chair in my house, standing up for someone, etc)
-    **World of Forms**: abstract world of eternal, unchanging forms only accessible through human reason. 
+    -World of Forms: abstract world of eternal, unchanging forms only accessible through human reason. 
     Contains perfect forms for each universal ('humanness', 'chairness' 'courage', etc)
 
 Bringing it together, Plato argues that we can use human logic to categorize physical things in our world (ex. my house) into universals (ex. buildings) based on their properties and behavior. He takes it a step further and says that both the physical thing itself and its abstract categorizaton exist. He thinks the form can exist independent of any partcular of that form. This whole argument is called _Thoery of Forms_.
