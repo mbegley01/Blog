@@ -27,7 +27,6 @@ A classic ontological debate that started from Plato is whether properties exist
 Plato argues that existence is divided into two realities:
 
     -Material World: physical world we experience with particular things and actions 
-    (Abe Lincoln, chair in my house, etc)
     -World of Forms: abstract world of eternal, unchanging forms only accessible through human reason. 
     Contains perfect forms for each universal ('humanness', 'chairness', etc)
 
