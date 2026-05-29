@@ -32,6 +32,8 @@ Plato argues that existence is divided into two realities:
 
 Bringing it together, Plato argues that we can use human logic to categorize physical things in our world (ex. my house) into universals (ex. buildings) based on their properties and behavior. He takes it a step further and says that both the physical thing itself and its abstract categorizaton exist. He thinks the form can exist independent of any partcular of that form. This whole argument is called _Thoery of Forms_.
 
+**Object Oriented Programming**
+
 Now we will introduce object oriented programming through a comparison to this philosophical framework. Imagine you are working on a project in Python where you want to keep track of information about princesses. There are many different individual princesses, like Belle or Repunzel, but they are all categorized as princesses. The particualar would be a specific princess like Belle, and the universal form is princess. 
 
 Each individual princess can have different attributes. Belle has brown hair and a yellow dress, whereas Repunzel has blonde hair and a purple dress. Furthermore, each princess can have different functions, or things that they do. Belle might say, "Bonjour, bonjour!". Repunzel instead says, "When will my life begin?". 
