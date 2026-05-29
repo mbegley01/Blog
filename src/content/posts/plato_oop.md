@@ -27,9 +27,9 @@ A classic ontological debate that started from Plato is whether properties exist
 Plato argues that existence is divided into two realities:
 
     -Material World: physical world we experience with particular things and actions 
-    (Abe Lincoln, chair in my house, standing up for someone, etc)
+    (Abe Lincoln, chair in my house, etc)
     -World of Forms: abstract world of eternal, unchanging forms only accessible through human reason. 
-    Contains perfect forms for each universal ('humanness', 'chairness' 'courage', etc)
+    Contains perfect forms for each universal ('humanness', 'chairness', etc)
 
 Bringing it together, Plato argues that we can use human logic to categorize physical things in our world (ex. my house) into universals (ex. buildings) based on their properties and behavior. He takes it a step further and says that both the physical thing itself and its abstract categorizaton exist. He thinks the form can exist independent of any partcular of that form. This whole argument is called _Thoery of Forms_.
 
