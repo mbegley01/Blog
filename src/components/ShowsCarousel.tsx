@@ -76,7 +76,7 @@ export default function ShowsCarousel(
 
                 <div className="flex flex-1 items-stretch">
                   <div className="w-full rounded-base border-border bg-main p-4 shadow-shadow">
-                    <p className="text-foreground w-full">
+                    <p className="text-main-foreground w-full">
                       {show.comments}
                     </p>
                   </div>
