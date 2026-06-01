@@ -67,7 +67,7 @@ export default function ShowsCarousel(
                     {show.name}
                   </div>
                   <img
-                    className="mt-3 h-56 w-full rounded-base border-2 border-border object-cover shadow-shadow"
+                    className="mt-3 h-80 w-full rounded-base border-2 border-border object-cover shadow-shadow lg:h-[28rem]"
                     src={show.imageSrc}
                     alt={show.name}
                     loading="lazy"
@@ -76,10 +76,7 @@ export default function ShowsCarousel(
 
                 <div className="flex flex-1 items-stretch">
                   <div className="w-full rounded-base border-border bg-main p-4 shadow-shadow">
-                    <div className="font-heading text-lg text-foreground">
-                      Comments
-                    </div>
-                    <p className="mt-2 text-foreground w-full">
+                    <p className="text-foreground w-full">
                       {show.comments}
                     </p>
                   </div>
