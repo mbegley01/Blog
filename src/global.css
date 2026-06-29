@@ -51,6 +51,28 @@
   --breakpoint-m700: max-width: 700px;
   --breakpoint-m500: max-width: 500px;
   --breakpoint-m400: max-width: 400px;
+
+  /* Radix Accordion height animations (used by `src/components/ui/accordion.tsx`) */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
 }
 
 body {
@@ -59,4 +81,40 @@ body {
 
 mark {
   background-color: var(--main);
+}
+
+.spectrum-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  border: 2px solid var(--border);
+  background: var(--main);
+  box-shadow: var(--shadow);
+  cursor: grab;
+}
+
+.spectrum-range:active::-webkit-slider-thumb {
+  cursor: grabbing;
+}
+
+.spectrum-range::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  border: 2px solid var(--border);
+  background: var(--main);
+  box-shadow: var(--shadow);
+  cursor: grab;
+}
+
+.spectrum-range::-webkit-slider-runnable-track {
+  background: transparent;
+  height: 2.5rem;
+}
+
+.spectrum-range::-moz-range-track {
+  background: transparent;
+  height: 2.5rem;
 }
